@@ -1,0 +1,39 @@
+body {
+    background-color: pink;
+    background-image: url(https://i.pinimg.com/736x/fd/7e/ea/fd7eea0d2fb1c838234bf730cb24a094.jpg);
+    font-family: monospace;
+    color:white
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-list {
+    margin: 10px;
+    background-color: black;
+}
+
+#nico-presentation {
+    font-size: 60px;
+    text-align: center;
+    background-color: black;
+    padding: 30px;;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#mensagem {
+    font-size: 40px;
+    text-align: center;
+    background-color: black;
+    margin-left: 150px;
+    margin-right: 150px;
+}
