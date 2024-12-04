@@ -1,10 +1,3 @@
-body {
-    background-color: pink;
-    background-image: url(https://i.pinimg.com/736x/fd/7e/ea/fd7eea0d2fb1c838234bf730cb24a094.jpg);
-    font-family: monospace;
-    color:white
-}
-
 ul {
     display: flex;
     gap: 16px;
@@ -20,20 +13,45 @@ ul {
 }
 
 #nico-presentation {
-    font-size: 60px;
-    text-align: center;
-    background-color: black;
-    padding: 30px;;
-    margin-top: 2%;
-    margin-bottom: 1%;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
-#mensagem {
     font-size: 40px;
     text-align: center;
     background-color: black;
-    margin-left: 150px;
-    margin-right: 150px;
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#mensagem {
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #000;
+}
+
+.centro {
+    text-align: center;
+}
+body {
+    background-image: url(https://i.pinimg.com/736x/fd/7e/ea/fd7eea0d2fb1c838234bf730cb24a094.jpg);
+    font-family: monospace;
+    color:white
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    justify-content:center;
 }
