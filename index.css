@@ -20,20 +20,16 @@ nav {
 #nico-presentation {
     font-size: 40px;
     text-align: center;
-    background-color: black;
-    padding: 20px;
-    margin-left: 300px;
-    margin-right: 300px;
-    border-radius: 50%;
+    padding: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 #mensagem {
     font-size: 20px;
     text-align: center;
-    background-color: black;
     margin-left: 350px;
     margin-right: 350px;
-    border-radius: 30%;
 }
 
 header img {
@@ -49,9 +45,9 @@ header img {
     object-fit: cover;
 }
 body {
-    background-image: url(https://i.pinimg.com/736x/8a/14/a8/8a14a89296880edb9dc976c16aa04101.jpg);
+    background-color: lightskyblue; 
     font-family: monospace;
-    color:white
+    color: black;
 }
 
 footer {
@@ -65,4 +61,10 @@ footer img {
     justify-content:center;
     background-color: white;
     border-radius: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        background-color: lightpink;
+    }
 }
