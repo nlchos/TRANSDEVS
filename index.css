@@ -40,9 +40,11 @@ header img {
 
 .centro {
     text-align: center;
+    width: 100%;
+    object-fit: cover;
 }
 body {
-    background-image: url(https://i.pinimg.com/736x/fd/7e/ea/fd7eea0d2fb1c838234bf730cb24a094.jpg);
+    background-image: url(https://i.pinimg.com/736x/8a/14/a8/8a14a89296880edb9dc976c16aa04101.jpg);
     font-family: monospace;
     color:white
 }
