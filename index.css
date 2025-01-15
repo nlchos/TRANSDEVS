@@ -1,20 +1,10 @@
-#menu, #auth {
-    display: flex;
-    list-style: none;
-    padding: 0px;
-    gap: 20px;
-    margin: 0px;
-}
-
-#search-bar {
-    height: 20px;
-}
-
-nav {
+ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    margin: 15px;
+    list-style: none;
 }
 
 #nico-presentation {
@@ -50,6 +40,12 @@ body {
     color: black;
 }
 
+#Sobre-mim, p {
+    margin-left: 20px;
+    margin-right: 35px;
+    font-size: 15px;
+}
+
 footer {
     display:flex;
     justify-content: center;
@@ -63,7 +59,7 @@ footer img {
     border-radius: 50%;
 }
 
-@media only screen and (max-width: 700px) {
+@media onlyscreen {
     body {
         background-color: lightpink;
     }
